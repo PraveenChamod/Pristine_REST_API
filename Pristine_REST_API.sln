@@ -15,15 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{32EAB55B-8261-4A13-AACC-4476FE420D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pristine_REST_API.Api", "src\1 - Services\Pristine_REST_API.Api\Pristine_REST_API.Api.csproj", "{11B49CD3-E424-4B99-9B00-68DBF3350FD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pristine_REST_API.Api", "src\1 - Services\Pristine_REST_API.Api\Pristine_REST_API.Api.csproj", "{11B49CD3-E424-4B99-9B00-68DBF3350FD3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9617CA25-F622-4788-B75E-7F7BBC4C885E} = {9617CA25-F622-4788-B75E-7F7BBC4C885E}
+		{AD818D4C-1036-416A-B102-E5A729AE701F} = {AD818D4C-1036-416A-B102-E5A729AE701F}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pristine_REST_API.Application", "src\2 - Application\Pristine_REST_API.Application\Pristine_REST_API.Application.csproj", "{AD818D4C-1036-416A-B102-E5A729AE701F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pristine_REST_API.Application", "src\2 - Application\Pristine_REST_API.Application\Pristine_REST_API.Application.csproj", "{AD818D4C-1036-416A-B102-E5A729AE701F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pristine_REST_API.Domain", "src\3 - Domain\Pristine_REST_API.Domain\Pristine_REST_API.Domain.csproj", "{FB766B2C-F5A5-43FE-BDB2-D92AE2C754DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pristine_REST_API.Domain", "src\3 - Domain\Pristine_REST_API.Domain\Pristine_REST_API.Domain.csproj", "{FB766B2C-F5A5-43FE-BDB2-D92AE2C754DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pristine_REST_API.Infrastructure", "src\4 - Infra\Pristine_REST_API.Infrastructure\Pristine_REST_API.Infrastructure.csproj", "{9617CA25-F622-4788-B75E-7F7BBC4C885E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pristine_REST_API.Infrastructure", "src\4 - Infra\Pristine_REST_API.Infrastructure\Pristine_REST_API.Infrastructure.csproj", "{9617CA25-F622-4788-B75E-7F7BBC4C885E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pristine_REST_API.Test", "src\5 - Test\Pristine_REST_API.Test\Pristine_REST_API.Test.csproj", "{AA0184B6-1A90-4187-ABC5-6060BE020B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pristine_REST_API.Test", "src\5 - Test\Pristine_REST_API.Test\Pristine_REST_API.Test.csproj", "{AA0184B6-1A90-4187-ABC5-6060BE020B2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
